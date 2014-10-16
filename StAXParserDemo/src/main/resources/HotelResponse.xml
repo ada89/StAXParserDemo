@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<soap:Body>
+		<availabilityResponse>
+			<hotel id="4711">
+				<room name="Oceanview Luxussuite">
+					<rate name="Room only">
+						<price total="345.29">
+							<netprice>342.12</netprice>
+							<city_tax>0</city_tax>
+							<vat>3.17</vat>
+							<resort_fee>0</resort_fee>
+							<partner_fee>0</partner_fee>
+							<currency>USD</currency>
+							<breakfast included="false" price="8.00" />
+						</price>
+						<creditcard required="false" />
+						<cancellation possible="false" />
+						<private>true</private>
+					</rate>
+					<rate name="half-board">
+						<price total="506.17">
+							<netprice>502.00</netprice>
+							<city_tax>0</city_tax>
+							<vat>4.17</vat>
+							<resort_fee>0</resort_fee>
+							<partner_fee>0</partner_fee>
+							<currency>USD</currency>
+							<breakfast included="true" />
+						</price>
+						<creditcard required="false" />
+						<cancellation possible="true" deadline="2015-03-20 18:00 GMT+1" />
+						<private>true</private>
+					</rate>
+				</room>
+			</hotel>
+			<hotel id="23">
+				<room name="Standard Room">
+					<rate name="Room only">
+						<price total="45.00">
+							<netprice>40.00</netprice>
+							<city_tax>0.00</city_tax>
+							<vat>5.00</vat>
+							<resort_fee>0</resort_fee>
+							<partner_fee>0</partner_fee>
+							<currency>EUR</currency>
+							<breakfast included="false" price="8.00" />
+						</price>
+						<creditcard required="false" />
+						<cancellation possible="false" />
+						<private>true</private>
+					</rate>
+				</room>
+			</hotel>
+			<hotel id="42">
+				<currency>USD</currency>
+				<room name="6 bed dormitory">
+					<rate name="Room only">
+						<price total="15.00">
+							<netprice>13.00</netprice>
+							<city_tax>0.00</city_tax>
+							<vat>2.00</vat>
+							<resort_fee>0</resort_fee>
+							<partner_fee>0</partner_fee>
+							<currency>USD</currency>
+						</price>
+						<creditcard required="false" />
+						<cancellation possible="false" />
+						<private>false</private>
+					</rate>
+				</room>
+				<room name="8 bed dormitory">
+					<rate name="Room only">
+						<price total="14.00">
+							<netprice>12.50</netprice>
+							<city_tax>0.00</city_tax>
+							<vat>1.50</vat>
+							<resort_fee>0</resort_fee>
+							<partner_fee>0</partner_fee>
+							<currency>USD</currency>
+							<breakfast included="false" price="5.00" />
+						</price>
+						<creditcard required="false" />
+						<cancellation possible="false" />
+						<private>false</private>
+					</rate>
+				</room>
+			</hotel>
+			<hotel id="OBRFAO">
+				<room name="King Suite">
+					<rate name="s&#243;lo alojamiento">
+						<price total="201.70">
+							<netprice>193</netprice>
+							<city_tax>1</city_tax>
+							<vat>4.7</vat>
+							<resort_fee>1</resort_fee>
+							<partner_fee>2</partner_fee>
+							<currency>USD</currency>
+						</price>
+						<creditcard required="true" />
+						<cancellation possible="false" />
+						<private>true</private>
+					</rate>
+					<rate name="media pensi&#243;n">
+						<price total="252">
+							<netprice>240</netprice>
+							<city_tax>2</city_tax>
+							<vat>7</vat>
+							<resort_fee>1</resort_fee>
+							<partner_fee>2</partner_fee>
+							<currency>USD</currency>
+							<breakfast included="true" />
+						</price>
+						<creditcard required="false" />
+						<cancellation possible="false" />
+						<private>true</private>
+					</rate>
+					<rate name="media pensi&#243;n">
+						<price total="333.40">
+							<netprice>315.40</netprice>
+							<city_tax>4.5</city_tax>
+							<vat>13.5</vat>
+							<resort_fee>1</resort_fee>
+							<partner_fee>2</partner_fee>
+							<currency>USD</currency>
+							<breakfast included="true" />
+						</price>
+						<creditcard required="false" />
+						<cancellation possible="false" />
+						<private>true</private>
+					</rate>
+				</room>
+				<room name="Queen Suite">
+					<rate name="s&#243;lo alojamiento">
+						<price total="411.70">
+							<netprice>403</netprice>
+							<city_tax>1</city_tax>
+							<vat>4.7</vat>
+							<resort_fee>1</resort_fee>
+							<partner_fee>2</partner_fee>
+							<breakfast included="true" />
+							<currency>USD</currency>
+						</price>
+						<creditcard required="true" />
+						<cancellation possible="false" />
+						<private>true</private>
+					</rate>
+					<rate name="media pensi&#243;n">
+						<price total="262">
+							<netprice>250</netprice>
+							<city_tax>2</city_tax>
+							<vat>7</vat>
+							<resort_fee>1</resort_fee>
+							<partner_fee>2</partner_fee>
+							<currency>USD</currency>
+						</price>
+						<creditcard required="false" />
+						<cancellation possible="false" />
+						<private>true</private>
+					</rate>
+					<rate name="media pensi&#243;n">
+						<price total="343.40">
+							<netprice>325.40</netprice>
+							<city_tax>4.5</city_tax>
+							<vat>13.5</vat>
+							<resort_fee>1</resort_fee>
+							<partner_fee>2</partner_fee>
+							<currency>USD</currency>
+							<breakfast included="true" />
+						</price>
+						<creditcard required="false" />
+						<cancellation possible="false" />
+						<private>true</private>
+					</rate>
+				</room>
+			</hotel>
+		</availabilityResponse>
+	</soap:Body>
+</soap:Envelope>
